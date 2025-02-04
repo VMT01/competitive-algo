@@ -1,10 +1,13 @@
+//! [Two Sum](https://leetcode.com/problems/two-sum)
+//! cargo test ::two_sum
+//!
+//! Runtime: 1ms     | Beats 49.00%
+//! Memory : 2.47 MB | Beats 47.97%
+
 use crate::Solution;
 
 #[allow(dead_code)]
 impl Solution {
-    /// Runtime: 1ms     | Beats 49.00%
-    /// Memory : 2.47 MB | Beats 47.97%
-    /// cargo test ::two_sum
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let mut map = std::collections::BTreeMap::<i32, usize>::new();
         let mut result = Vec::with_capacity(2);
