@@ -3,6 +3,9 @@
 //!
 //! Runtime: 0ms    | Beats 100.00%
 //! Memory : 2.28MB | Beats  97.92%
+//!
+//! Sử dụng đệ quy để tính toán từng chữ số. Nếu tổng hai chữ số hiện tại, ta sử dụng thêm một lần
+//! đệ quy nữa để tính vào số tiếp theo.
 
 use crate::{ListNode, Solution};
 

@@ -3,6 +3,9 @@
 //!
 //! Runtime: 1ms     | Beats 49.00%
 //! Memory : 2.47 MB | Beats 47.97%
+//!
+//! Sử dụng map để đánh dấu phần tử xuất hiện trước đó. Nếu `target - value` mà tồn tại trong Map
+//! là thỏa mãn bài toán.
 
 use crate::Solution;
 
