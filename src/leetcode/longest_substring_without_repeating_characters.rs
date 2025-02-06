@@ -1,4 +1,4 @@
-//! [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest_substring_without_repeating_characters)
+//! [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 //! cargo test ::longest_substring_without_repeating_characters
 //!
 //! Runtime: 0ms    | Beats 100.00%
