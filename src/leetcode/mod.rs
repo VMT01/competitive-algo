@@ -4,6 +4,7 @@ mod fizz_buzz;
 mod invert_binary_tree;
 mod longest_substring_without_repeating_characters;
 mod median_of_two_sorted_arrays;
+mod number_of_steps_to_reduce_a_number_to_zero;
 mod richest_customer_wealth;
 mod root_equals_sum_of_children;
 mod running_sum_of_1d_array;
