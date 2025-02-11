@@ -1,9 +1,10 @@
 //! [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth)
 //! cargo test ::richest_customer_wealth
 //!
-//! Runtime:
-//! Memory :
+//! Runtime: 0ms     | Beats 100.00%
+//! Memory : 2.40 MB | Beats  34.10%
 //!
+//! Seriously? You need solution for this?
 
 use crate::Solution;
 

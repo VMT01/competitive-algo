@@ -1,5 +1,6 @@
 mod add_two_integers;
 mod add_two_number;
+mod fizz_buzz;
 mod invert_binary_tree;
 mod longest_substring_without_repeating_characters;
 mod median_of_two_sorted_arrays;
