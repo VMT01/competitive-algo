@@ -12,4 +12,5 @@ mod ransom_note;
 mod richest_customer_wealth;
 mod root_equals_sum_of_children;
 mod running_sum_of_1d_array;
+mod squares_of_a_sorted_array;
 mod two_sum;
