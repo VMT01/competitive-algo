@@ -3,6 +3,7 @@ mod add_two_number;
 mod fizz_buzz;
 mod invert_binary_tree;
 mod longest_substring_without_repeating_characters;
+mod max_consecutive_ones;
 mod median_of_two_sorted_arrays;
 mod middle_of_the_linked_list;
 mod number_of_steps_to_reduce_a_number_to_zero;
