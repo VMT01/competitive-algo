@@ -8,6 +8,7 @@ mod max_consecutive_ones;
 mod median_of_two_sorted_arrays;
 mod middle_of_the_linked_list;
 mod number_of_steps_to_reduce_a_number_to_zero;
+mod duplicate_zeros;
 mod ransom_note;
 mod richest_customer_wealth;
 mod root_equals_sum_of_children;
