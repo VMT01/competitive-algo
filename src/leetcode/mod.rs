@@ -19,3 +19,4 @@ mod root_equals_sum_of_children;
 mod running_sum_of_1d_array;
 mod squares_of_a_sorted_array;
 mod two_sum;
+mod valid_mountain_array;
