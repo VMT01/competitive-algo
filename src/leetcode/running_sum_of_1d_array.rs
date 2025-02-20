@@ -3,7 +3,6 @@
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.37 MB | Beats  35.29%
-//!
 
 use crate::Solution;
 
