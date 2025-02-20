@@ -14,6 +14,7 @@ mod number_of_steps_to_reduce_a_number_to_zero;
 mod ransom_note;
 mod remove_duplicates_from_sorted_array;
 mod remove_element;
+mod replace_elements_with_greatest_element_on_right_side;
 mod richest_customer_wealth;
 mod root_equals_sum_of_children;
 mod running_sum_of_1d_array;
