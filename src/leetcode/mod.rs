@@ -10,6 +10,7 @@ mod max_consecutive_ones;
 mod median_of_two_sorted_arrays;
 mod merge_sorted_array;
 mod middle_of_the_linked_list;
+mod move_zeroes;
 mod number_of_steps_to_reduce_a_number_to_zero;
 mod ransom_note;
 mod remove_duplicates_from_sorted_array;
