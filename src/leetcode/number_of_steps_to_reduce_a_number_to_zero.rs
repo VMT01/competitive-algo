@@ -1,12 +1,18 @@
-//! [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero)
+//! 1342. \[**Easy**\] [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero)
+//!
+//! - `Math`
+//! - `Bit Manipulation`
+//!
 //! cargo test ::number_of_steps_to_reduce_a_number_to_zero
 //!
 //! Runtime: 0ms     | Beats 100.00%
-//! Memory : 2.33 MB | Beats       %
+//! Memory : 2.33 MB | Beats      -%
 //!
-//! Sử dụng số lượng bit 0 và 1 để tính toán. Vì bit 1 cần 2 phép toán (trừ và chia) trong khi bit
-//! 0 chỉ cần một phép toán (chia). Khi đó chỉ cần một công thức là ones * 2 + zeros - 1 (trừ đi
-//! giá trị bit 0 cuối cùng, không cần tính trong phép toán)
+//! Counting bit 0 & 1. The total number of steps is calculated using the formula `(ones * 2 +
+//! zeros).saturating_sub(1)`. This formula considers that each set bit requires two operations
+//! (either division by 2 or substraction by 1), while unset bits require one operation.
+//! `saturating_sub(1)` ensures that if the result underflows, it remains zero instead of wrapping
+//! aroung.
 
 use crate::Solution;
 

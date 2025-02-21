@@ -1,8 +1,18 @@
-//! [Fizz Buzz](https://leetcode.com/problems/fizz-buzz)
+//! 412. \[**Fizz Buzz**\] [Fizz Buzz](https://leetcode.com/problems/fizz-buzz)
+//!
+//! - `Math`
+//! - `String`
+//! - `Simulation`
+//!
 //! cargo test ::fizz_buzz
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.73 MB | Beats  76.36%
+//!
+//! Iterates over each number from 1 to `n`. For each number, checks if it is devisible by 3, if
+//! true appends "Fizz" to the string `entry`. Then check if it is divisible by 5, if true appends
+//! "Buzz" to the string `entry`. If `entry` is empty, appends the number itself as a string,
+//! otherwise appends the `entry`.
 
 use crate::Solution;
 

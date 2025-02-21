@@ -1,12 +1,18 @@
-//! [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+//! 3. \[**Medium**\] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+//!
+//! - `Hash Table`
+//! - `String`
+//! - `Sliding Window`
+//!
 //! cargo test ::longest_substring_without_repeating_characters
 //!
 //! Runtime: 0ms    | Beats 100.00%
 //! Memory : 2.33MB | Beats  65.45%
 //!
-//! Sử dụng map để đánh dấu vị trí xuất hiện của các ký tự, kết hợp với slicing index để giả lập
-//! two pointer. Kết quả là khoảng cách giữa con trỏ của chuỗi và slicing index. Việc insert vào
-//! map phải cộng một để slicing index không nhầm lẫn với ký tự xuất hiện trước đó.
+//! For each character, checks if the character is already in the map. If it is, retrieves the last
+//! known position of this character. The length of the current valid substring is calculated and
+//! compared with the current maximum length. The character's new position plus one (to include the
+//! current character in the next potential substring) is inserted into the map.
 
 use crate::Solution;
 

@@ -1,8 +1,15 @@
-//! [Move Zeroes](https://leetcode.com/problems/move-zeroes)
+//! 283. \[**Easy**\] [Move Zeroes](https://leetcode.com/problems/move-zeroes)
+//!
+//! - `Array`
+//! - `Two Pointers`
+//!
 //! cargo test ::move_zeroes
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.43 MB | Beats  49.48%
+//!
+//! For each element at index `i`, if it is not a zero, the method swaps this element with the
+//! element at `non_zero_idx` and increses `non_zero_idx` by 1.
 
 use crate::Solution;
 

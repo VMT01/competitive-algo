@@ -1,8 +1,15 @@
-//! [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)
+//! 485. \[**Easy**\] [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)
+//!
+//! - `Array`
+//!
 //! cargo test ::max_consecutive_ones
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.68 MB | Beats  86.78%
+//!
+//! For each element in the iterator. if the element is zero, it means a streak of consecutive ones
+//! has ended, updates `result` to be the maximum of its current value and the current counter,
+//! then reset the counter.
 
 use crate::Solution;
 

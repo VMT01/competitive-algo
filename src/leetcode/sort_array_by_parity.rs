@@ -1,8 +1,17 @@
-//! [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)
+//! 905. \[**Easy**\] [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)
+//!
+//! - `Array`
+//! - `Two Pointers`
+//! - `Sorting`
+//!
 //! cargo test ::sort_array_by_parity
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.39 MB | Beats  68.00%
+//!
+//! Split the input vector into two categories based on whether each number is even or odd. After
+//! sorting both sub-vectors, it appends the sorted odd numbers to the end of the sorted even
+//! numbers
 
 use crate::Solution;
 

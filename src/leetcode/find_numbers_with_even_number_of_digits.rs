@@ -1,8 +1,15 @@
-//! [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)
+//! 1295. \[**Easy**\] [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)
+//!
+//! - `Array`
+//! - `Math`
+//!
 //! cargo test ::find_numbers_with_even_number_of_digits
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory:  2.26 MB | Beats  95.16%
+//!
+//! For each number, converts the number to a string and then checks if its length is even. If the
+//! condition is tru, it maps this to `Some(1)`, otherwise `None`.
 
 use crate::Solution;
 

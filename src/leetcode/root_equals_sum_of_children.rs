@@ -1,10 +1,14 @@
-//! [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children)
+//! 2236. \[**Easy**\] [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children)
+//!
+//! - `Tree`
+//! - `Binary Tree`
+//!
 //! cargo test ::root_equals_sum_of_children
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.23 MB | Beats  46.15%
 //!
-//! Vì Rust sử dụng smart pointer nên trước tiên cần phải unpack và borrow
+//! Borrowing the root node and then recursively borrows its left and right children.
 
 use std::{cell::RefCell, rc::Rc};
 

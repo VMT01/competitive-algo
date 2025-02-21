@@ -1,8 +1,14 @@
-//! [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side)
+//! 1299. \[**Easy**\] [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side)
+//!
+//! - `Array`
+//!
 //! cargo test ::replace_elements_with_greatest_element_on_right_side
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.48 MB | Beats  80.70%
+//!
+//! Iterates over the vector in reverse order, maintaining a running maximum and swapping it with
+//! each element as it goes.
 
 use crate::Solution;
 

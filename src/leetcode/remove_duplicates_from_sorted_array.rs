@@ -1,8 +1,15 @@
-//! [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+//! 26. \[**Easy**\] [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+//!
+//! - `Array`
+//! - `Two Pointers`
+//!
 //! cargo test ::remove_duplicates_from_sorted_array
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.38 MB | Beats  87.84%
+//!
+//! Iterates through the array, keep track of unique elements and moving them to the front of the
+//! array.
 
 use crate::Solution;
 

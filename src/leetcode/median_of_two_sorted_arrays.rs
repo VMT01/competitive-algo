@@ -1,17 +1,25 @@
-//! [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
+//! 4. \[**Hard**\] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)
+//!
+//! - `Array`
+//! - `Binary Search`
+//! - `Divide and Conquer`
+//!
 //! cargo test ::median_of_two_sorted_arrays
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.32 MB | Beats  20.64%
 //!
-//! **Sử dụng tìm kiếm nhị phân trên mảng.**
+//! ***Ensure that `num1` is always the smaller array for consistency.***
 //!
-//! Chúng ta chia mỗi mảng thành 2 phần:
-//! - Trái A: A[0]..A[i-1] & Phải A: A[i]..A[m-1]
-//! - Trái B: B[0]..B[j-1] & Phải B: B[j]..B[n-1] với j = ((m+n+1)/2 - i)
+//! The variables `l1`, `l2`, `r1`, `r2` are defined to represent the element around the partition
+//! points in both arrays.
 //!
-//! Ta cần đảm bảo phần tử cuối bên trái A không vượt quá phần tử đầu bên phải của B và phần tử
-//! cuối bên trái của B không vượt quá phần tử đầu bên phải của A.
+//! - If `l1 <= r2` and `l2 <= r1`, it means the partitions are correctly aligned:
+//!     - If the total length is even, calculates the median as the average of the maximum of the
+//!       left halves and the minimum of the right halves.
+//!     - If the total length is odd, it returns the maximum of the left halves.
+//! - If `l1 > r2`, it means the partition in `num1` needs to be moved left.
+//! - If `l2 > r1`, it means the partition in `num2` needs to be moved right.
 
 use crate::Solution;
 

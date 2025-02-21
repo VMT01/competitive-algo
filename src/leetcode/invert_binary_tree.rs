@@ -1,10 +1,18 @@
-//! [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
+//! 226. \[**Easy**\] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)
+//!
+//! - `Tree`
+//! - `Depth-First Search`
+//! - `Breadth-First Search`
+//! - `Binary Tree`
+//!
 //! cargo test ::invert_binary_tree
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.22 MB | Beats  52.63%
 //!
-//! Sử dụng đệ quy và mem::swap để thay đổi pointer đến vùng nhớ của left & right
+//! Recursively traverses the tree starting from the root. For each node, call `swap_all` for both
+//! left and right childs if they exists. Finally, swaps the current node's children using the
+//! `swap` method.
 
 use std::{cell::RefCell, rc::Rc};
 

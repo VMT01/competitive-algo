@@ -1,8 +1,16 @@
-//! [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)
+//! 977. \[**Easy**\] [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)
+//!
+//! - `Array`
+//! - `Two Pointers`
+//! - `Sorting`
+//!
 //! cargo test ::squares_of_a_sorted_array
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.40 MB | Beats  98.85%
+//!
+//! Map each number to its square and collect into a vctor. Then, sorts this new vector in
+//! ascending order.
 
 use crate::Solution;
 

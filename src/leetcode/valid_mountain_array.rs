@@ -1,8 +1,15 @@
-//! [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array)
+//! 941. \[**Easy**\] [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array)
+//!
+//! - `Array`
+//!
 //! cargo test ::valid_mountain_array
 //!
 //! Runtime: 2ms     | Beast  86.49%
 //! Memory : 2.29 MB | Beats 100.00%
+//!
+//! Iterates through the array to find the peak of the mountain by increasing index `i` as long as
+//! the current element is less then the next one. After identifying the peak, it continues
+//! iterating the ensure that all subsequent element decrease strictly until the end of the array.
 
 use crate::Solution;
 

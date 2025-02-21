@@ -1,8 +1,17 @@
-//! [Ransom Note](https://leetcode.com/problems/ransom-note)
+//! 383. \[**Easy**\] [Ransom Note](https://leetcode.com/problems/ransom-note)
+//!
+//! - `Hash table`
+//! - `String`
+//! - `Counting`
+//!
 //! cargo test ::ransom_note
 //!
 //! Runtime: 3ms     | Beats 52.98%
 //! Memory : 2.32 MB | Beats 50.78%
+//!
+//! Iterate over each character in `ransom_note`. If the character exists in the `HashMap` and has
+//! a count greater than zero, decrement the count. If the character does not exist in the map or
+//! its count is zero, return `false`.
 
 use crate::Solution;
 

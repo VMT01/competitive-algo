@@ -1,10 +1,15 @@
-//! [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth)
+//! 1672. \[**Easy**\] [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth)
+//!
+//! - `Array`
+//! - `Matrix`
+//!
 //! cargo test ::richest_customer_wealth
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.40 MB | Beats  34.10%
 //!
-//! Seriously? You need solution for this?
+//! Returns the maximum wealth among all accounts by summing up the values in each account and
+//! finding the maximum sum.
 
 use crate::Solution;
 

@@ -1,8 +1,17 @@
-//! [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
+//! 88. \[**Easy**\] [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)
+//!
+//! - `Array`
+//! - `Two Pointers`
+//! - `Sorting`
+//!
 //! cargo test ::merge_sorted_array
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.25 MB | Beats  87.81%
+//!
+//! Compare the current elements at `nums1[m - i - 1]` and `nums2[n - j - 1]`. Place the larger
+//! element at the end of nums1 and increse the corresponding index to move to the next element in
+//! the respective array.
 
 use crate::Solution;
 

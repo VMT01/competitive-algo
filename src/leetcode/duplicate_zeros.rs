@@ -1,8 +1,15 @@
-//! [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros)
+//! 1089. \[**Easy**\] [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros)
+//!
+//! - `Array`
+//! - `Two Pointers`
+//!
 //! cargo test ::duplicate_zeros
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.48 MB | Beats  18.03%
+//!
+//! For each elements in reverse, if the element is zero, it removes the last element from the
+//! vector and inserts a new zero at the current index.
 
 use crate::Solution;
 

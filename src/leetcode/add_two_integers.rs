@@ -1,10 +1,13 @@
-//! [Add Two Integers](https://leetcode.com/problems/add-two-integers)
+//! 2235. \[**Easy**\] [Add Two Integers](https://leetcode.com/problems/add-two-integers)
+//!
+//! - `Math`
+//!
 //! cargo test ::add_two_integers
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.32 MB | Beats      -%
 //!
-//! Seriously?
+//! Use the addition operator to add two integers
 
 use crate::Solution;
 

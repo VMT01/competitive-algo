@@ -1,17 +1,25 @@
-//! [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array)
+//! 1480. \[Easy\] [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array)
+//!
+//! - `Array`
+//! - `Prefix Sum`
+//!
 //! cargo test ::running_sum_of_1d_array
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.37 MB | Beats  35.29%
+//!
+//! It iterates over the vector using `iter_mut`, maintaining an accumulator (`acc`)
+//! initialized to 0. For each element, it adds the current value of the accumulator
+//! to the element and updates the accumulator with the new value of the element.
 
 use crate::Solution;
 
 #[allow(dead_code)]
 impl Solution {
     pub fn running_sum(mut nums: Vec<i32>) -> Vec<i32> {
-        nums.iter_mut().fold(0, |acc, val| {
-            *val += acc;
-            *val
+        nums.iter_mut().reduce(|acc, val| {
+            *val += *acc;
+            val
         });
         nums
     }

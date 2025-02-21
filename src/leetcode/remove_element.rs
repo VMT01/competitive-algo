@@ -1,8 +1,15 @@
-//! [Remove Element](https://leetcode.com/problems/remove-element)
+//! 27. \[**Easy**\] [Remove Element](https://leetcode.com/problems/remove-element)
+//!
+//! - `Array`
+//! - `Two Pointers`
+//!
 //! cargo test ::remove_element
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.25 MB | Beats  57.14%
+//!
+//! Iterates over the vector in reverse order, removing occurrences of the specified value using
+//! `swap_remove`. For each non-matching element, it increments a counter.
 
 use crate::Solution;
 

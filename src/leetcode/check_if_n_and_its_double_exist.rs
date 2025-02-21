@@ -1,8 +1,19 @@
-//! [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist)
+//! 1346. \[**Easy**\] [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist)
+//!
+//! - `Array`
+//! - `Hash Table`
+//! - `Two Pointers`
+//! - `Binary Search`
+//! - `Sorting`
+//!
 //! cargo test ::check_if_n_and_its_double_exist
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.36 MB | Beats  44.12%
+//!
+//! For each number, checks if either double the number or if `num` is even and haft of the number
+//! is already in the set. If either condition is true, it means there exists a pair where one
+//! element is twice the other, or else inserts the current number into the set.
 
 use crate::Solution;
 

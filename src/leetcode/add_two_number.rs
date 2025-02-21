@@ -1,11 +1,20 @@
-//! [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
+//! 2. \[**Medium**\] [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
+//!
+//! - `Linked List`
+//! - `Math`
+//! - `Recursion`
+//!
 //! cargo test ::add_two_numbers
 //!
 //! Runtime: 0ms    | Beats 100.00%
 //! Memory : 2.28MB | Beats  97.92%
 //!
-//! Sử dụng đệ quy để tính toán từng chữ số. Nếu tổng hai chữ số hiện tại, ta sử dụng thêm một lần
-//! đệ quy nữa để tính vào số tiếp theo.
+//! Calculates the sum of the values of the current nodes from both lists.
+//!
+//! - If the sum is less than 10, creates a new node with this value and continues to add the rest
+//! of the list.
+//! - If the sum is 10 or more, it creates a new node with the remainder when divided by 10 (`sum -
+//! 10`) and passes a new `ListNode` with value 1 as the carry-over to the next addtion.
 
 use crate::{ListNode, Solution};
 

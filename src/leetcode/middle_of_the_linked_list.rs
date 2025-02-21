@@ -1,11 +1,15 @@
-//! [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)
+//! 876. \[**Easy**\] [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)
+//!
+//! - `Linked List`
+//! - `Two Pointers`
+//!
 //! cargo test ::middle_of_the_linked_list
 //!
 //! Runtime: 0ms     | Beats 100.00%
 //! Memory : 2.18 MB | Beats 100.00%
 //!
-//! Sử dụng fast & slow pointer với fast nhanh gấp đôi slow, khi đó nếu fast bị null thì slow chính
-//! là middle node của linked list.
+//! In each iteration, `slow` moves one step forward, `fast` moves two steps forward. If `fast`
+//! reaches the end of the list, it means `slow` is the middle of the linked list.
 
 use crate::{ListNode, Solution};
 

@@ -1,11 +1,14 @@
-//! [Two Sum](https://leetcode.com/problems/two-sum)
+//! 1. \[**Easy**\] [Two Sum](https://leetcode.com/problems/two-sum)
+//!
+//! - `Array`
+//! - `Hash Table`
+//!
 //! cargo test ::two_sum
 //!
 //! Runtime: 1ms     | Beats 49.00%
 //! Memory : 2.47 MB | Beats 47.97%
 //!
-//! Sử dụng map để đánh dấu phần tử xuất hiện trước đó. Nếu `target - value` mà tồn tại trong Map
-//! là thỏa mãn bài toán.
+//! For each element, calculates the complement and checks if it exists in the map.
 
 use crate::Solution;
 
