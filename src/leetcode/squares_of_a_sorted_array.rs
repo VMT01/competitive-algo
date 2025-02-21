@@ -17,8 +17,8 @@ use crate::Solution;
 #[allow(dead_code)]
 impl Solution {
     pub fn sorted_squares(nums: Vec<i32>) -> Vec<i32> {
-        let mut result = nums.iter().map(|num| num * num).collect::<Vec<_>>();
-        result.sort();
+        let mut result = nums.iter().map(|&num| num * num).collect::<Vec<_>>();
+        result.sort_unstable();
 
         result
     }
