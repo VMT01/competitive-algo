@@ -11,10 +11,9 @@
 //!
 //! Calculates the sum of the values of the current nodes from both lists.
 //!
-//! - If the sum is less than 10, creates a new node with this value and continues to add the rest
-//! of the list.
+//! - If the sum is less than 10, creates a new node with this value and continues to add the rest of the list.
 //! - If the sum is 10 or more, it creates a new node with the remainder when divided by 10 (`sum -
-//! 10`) and passes a new `ListNode` with value 1 as the carry-over to the next addtion.
+//!   10`) and passes a new `ListNode` with value 1 as the carry-over to the next addtion.
 
 use crate::{ListNode, Solution};
 
