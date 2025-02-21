@@ -4,6 +4,7 @@ mod check_if_n_and_its_double_exist;
 mod duplicate_zeros;
 mod find_numbers_with_even_number_of_digits;
 mod fizz_buzz;
+mod height_checker;
 mod invert_binary_tree;
 mod longest_substring_without_repeating_characters;
 mod max_consecutive_ones;
