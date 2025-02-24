@@ -1,6 +1,7 @@
 mod add_two_integers;
 mod add_two_number;
 mod check_if_n_and_its_double_exist;
+mod design_linked_list;
 mod duplicate_zeros;
 mod find_all_numbers_disappeared_in_an_array;
 mod find_numbers_with_even_number_of_digits;
