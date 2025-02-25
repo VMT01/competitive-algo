@@ -15,6 +15,7 @@ mod merge_sorted_array;
 mod middle_of_the_linked_list;
 mod move_zeroes;
 mod number_of_steps_to_reduce_a_number_to_zero;
+mod number_of_sub_arrays_with_odd_sum;
 mod ransom_note;
 mod remove_duplicates_from_sorted_array;
 mod remove_element;
