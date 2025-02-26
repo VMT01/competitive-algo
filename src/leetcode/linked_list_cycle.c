@@ -7,6 +7,10 @@
 //!
 //! Runtime: 9ms      | Beats 78.16%
 //! Memory : 11.13 MB | Beats 78.37%
+//!
+//! Using two pointers, where fast pointer is 2 time faster than slow pointer.
+//! If slow == fast,
+//! which mean there a cycle in the linked list.
 
 #include <assert.h>
 #include <stdbool.h>

@@ -7,6 +7,26 @@
 //!
 //! Runtime: 4ms      | Beats 87.32%
 //! Memory : 10.28 MB | Beats 95.54%
+//!
+//! Using two pointers, where fast pointer is 2 time faster than slow pointer.
+//! If slow == fast,
+//! which mean there a cycle in the linked list.
+//!
+//! At that point, we have some declaration
+//!  - x: distance from `head` to `cycle start point`
+//!  - y: distance from `cycle start point` to `slow & fast met point`
+//!  - slow: moved `x + y` steps
+//!  - fast: moved `2 * (x + y)` steps
+//!
+//! We have:
+//! > fast steps - slow step = circle length * N
+//! > or
+//! > 2 * (x + y) - (x + y) = C * N
+//! > equivalent to
+//! > x + y = C * N
+//!
+//! So, from current slow pointer, need to step more x steps to reach the cycle
+//! start point, which equivalent to the step of head step to cycle start point.
 
 #include <assert.h>
 #include <stdbool.h>
