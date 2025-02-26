@@ -10,6 +10,7 @@ mod height_checker;
 mod invert_binary_tree;
 mod longest_substring_without_repeating_characters;
 mod max_consecutive_ones;
+mod maximum_absolute_sum_of_any_subarray;
 mod median_of_two_sorted_arrays;
 mod merge_sorted_array;
 mod middle_of_the_linked_list;
