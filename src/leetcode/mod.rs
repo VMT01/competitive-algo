@@ -8,6 +8,7 @@ mod find_numbers_with_even_number_of_digits;
 mod fizz_buzz;
 mod height_checker;
 mod invert_binary_tree;
+mod length_of_longest_fibonacci_subsequence;
 mod longest_substring_without_repeating_characters;
 mod max_consecutive_ones;
 mod maximum_absolute_sum_of_any_subarray;
