@@ -25,6 +25,7 @@ mod replace_elements_with_greatest_element_on_right_side;
 mod richest_customer_wealth;
 mod root_equals_sum_of_children;
 mod running_sum_of_1d_array;
+mod shortest_common_supersequence;
 mod sort_array_by_parity;
 mod squares_of_a_sorted_array;
 mod third_maximum_number;
