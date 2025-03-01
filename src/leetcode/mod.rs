@@ -1,5 +1,6 @@
 mod add_two_integers;
 mod add_two_number;
+mod apply_operations_to_an_array;
 mod check_if_n_and_its_double_exist;
 mod design_linked_list;
 mod duplicate_zeros;
