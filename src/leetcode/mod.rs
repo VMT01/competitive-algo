@@ -3,6 +3,7 @@ mod add_two_number;
 mod apply_operations_to_an_array;
 mod check_if_n_and_its_double_exist;
 mod check_if_number_is_a_sum_of_powers_of_three;
+mod count_total_number_of_colored_cells;
 mod design_linked_list;
 mod duplicate_zeros;
 mod find_all_numbers_disappeared_in_an_array;
