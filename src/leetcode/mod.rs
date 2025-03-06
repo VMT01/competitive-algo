@@ -7,6 +7,7 @@ mod count_total_number_of_colored_cells;
 mod design_linked_list;
 mod duplicate_zeros;
 mod find_all_numbers_disappeared_in_an_array;
+mod find_missing_and_repeated_values;
 mod find_numbers_with_even_number_of_digits;
 mod fizz_buzz;
 mod height_checker;
