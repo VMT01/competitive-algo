@@ -21,6 +21,7 @@ mod median_of_two_sorted_arrays;
 mod merge_sorted_array;
 mod merge_two_2d_arrays_by_summing_values;
 mod middle_of_the_linked_list;
+mod minimum_recolors_to_get_k_consecutive_black_blocks;
 mod move_zeroes;
 mod number_of_steps_to_reduce_a_number_to_zero;
 mod number_of_sub_arrays_with_odd_sum;
