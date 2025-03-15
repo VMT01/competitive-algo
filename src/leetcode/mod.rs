@@ -14,6 +14,7 @@ mod find_missing_and_repeated_values;
 mod find_numbers_with_even_number_of_digits;
 mod fizz_buzz;
 mod height_checker;
+mod house_robber_iv;
 mod invert_binary_tree;
 mod length_of_longest_fibonacci_subsequence;
 mod longest_substring_without_repeating_characters;
