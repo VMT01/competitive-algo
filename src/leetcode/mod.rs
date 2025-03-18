@@ -8,6 +8,7 @@ mod closest_prime_numbers_in_range;
 mod count_of_substrings_containing_every_vowel_and_k_consonants_ii;
 mod count_total_number_of_colored_cells;
 mod design_linked_list;
+mod divide_array_into_equal_pairs;
 mod duplicate_zeros;
 mod find_all_numbers_disappeared_in_an_array;
 mod find_missing_and_repeated_values;
