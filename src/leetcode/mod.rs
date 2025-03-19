@@ -28,6 +28,7 @@ mod median_of_two_sorted_arrays;
 mod merge_sorted_array;
 mod merge_two_2d_arrays_by_summing_values;
 mod middle_of_the_linked_list;
+mod minimum_operations_to_make_binary_array_elements_equal_to_one_i;
 mod minimum_recolors_to_get_k_consecutive_black_blocks;
 mod minimum_time_to_repair_cars;
 mod move_zeroes;
